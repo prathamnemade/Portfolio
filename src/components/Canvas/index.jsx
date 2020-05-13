@@ -54,10 +54,10 @@ const CanvasComponent = () => {
   }
   const strokeColor = "#5e6472"
   const strokeWidth = 1
-  const segments = 10
-  const radius = 15
-  const noiseScale = 100 // speed
-  const noiseRange = 4 // range of distortion
+  const segments = 5
+  const radius = 7
+  const noiseScale = 10 // speed
+  const noiseRange = 2 // range of distortion
   let isNoisy = false // state
 
   let bigCoordinates = []
@@ -151,7 +151,7 @@ const CanvasComponent = () => {
           bigCoordinates = []
         }
         // scale down the shape
-        const scaleDown = 0.52
+        const scaleDown = 0.45
         polygon.scale(scaleDown)
       }
 
