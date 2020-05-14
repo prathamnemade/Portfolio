@@ -8,7 +8,7 @@ let Test = styled.p`
 const LoadingComponent = () => {
   return (
     <>
-      <Test>sdfdf</Test>
+      <Test>sdffdf</Test>
     </>
   )
 }
