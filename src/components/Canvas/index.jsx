@@ -52,7 +52,7 @@ const CanvasComponent = () => {
     width: 75,
     height: 75,
   }
-  const strokeColor = "#181818"
+  const strokeColor = "#ffffff"
   const strokeWidth = 1
   const segments = 5
   const radius = 7
