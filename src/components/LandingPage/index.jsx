@@ -2,6 +2,7 @@ import React from "react"
 import styled from "styled-components"
 import FooterComponent from "../Footer"
 import LoadingComponent from "../Loading/LoadingComponent"
+import HomePage from "../HomePage"
 
 let PageWrapper = styled.div`
   position: absolute;
@@ -13,6 +14,7 @@ const LandingPageComponent = () => (
   <>
     <PageWrapper>
       <p className="custom-big-cursor">Khan</p>
+      <HomePage />
       <FooterComponent />
       {/* <LoadingComponent /> */}
     </PageWrapper>
