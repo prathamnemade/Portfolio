@@ -13,7 +13,7 @@ let PageWrapper = styled.div`
 const LandingPageComponent = () => (
   <>
     <PageWrapper>
-      <p className="custom-big-cursor">Khan</p>
+      {/* <p className="custom-big-cursor">Khan</p> */}
       <HomePage />
       <FooterComponent />
       {/* <LoadingComponent /> */}
