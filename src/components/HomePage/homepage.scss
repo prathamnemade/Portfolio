@@ -1,0 +1,12 @@
+@import "../../assets/fonts.scss";
+@import "../../assets/theme.scss";
+@import "../../assets/breakpoints.scss";
+
+@include media(">phone", "<tablet") {
+    .middle-text-box {
+        font-size: 0.6em;
+    }
+    .my-description {
+        font-size: 0.6em !important;
+    }
+}
