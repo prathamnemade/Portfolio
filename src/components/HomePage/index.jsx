@@ -2,9 +2,6 @@ import React from "react"
 import styled from "styled-components"
 import Typing from "react-typing-animation"
 import "./homepage.scss"
-import CrossIcon from "../../assets/icons/cross"
-import LeftCircleBoldIcon from "../../assets/icons/left-circle-bold"
-import RightCircleBlankIcon from "../../assets/icons/right-circle-blank"
 
 let ColorWrapper = styled.div`
   display: flex;
@@ -56,32 +53,6 @@ let ColorWrapper = styled.div`
     flex: 1;
     background-color: var(--prathamesh-white);
   }
-  .cross-icon {
-    position: absolute;
-    top: 20px;
-    left: 0;
-    right: 0;
-    margin: auto;
-    width: fit-content;
-    text-align: center;
-  }
-  .left-right-icon {
-    position: absolute;
-    top: 20px;
-    left: 0;
-    right: 0;
-    margin: auto;
-    display: flex;
-    width: fit-content;
-    justify-content: space-between;
-    text-align: center;
-    .left-arrow {
-      padding-right: 10px;
-    }
-    left-arrow {
-      padding-left: 10px;
-    }
-  }
 `
 const HomePage = () => {
   return (
@@ -104,21 +75,7 @@ const HomePage = () => {
             <p className="my-aim">FULL STACK WEB DEVELOPER | FREELANCER</p>
           </Typing>
         </div>
-        <div className="cross-icon">
-          <CrossIcon />
-        </div>
-        <div className="left-right-icon">
-          <span className="left-arrow">
-            <LeftCircleBoldIcon />
-          </span>
-          <span className="right-arrow">
-            <RightCircleBlankIcon />
-          </span>
-        </div>
         <div className="yellow-background"></div>
-        {/* <span className="menu-window">
-          Menu Window
-        </span> */}
         <div className="white-background"></div>
       </ColorWrapper>
     </>

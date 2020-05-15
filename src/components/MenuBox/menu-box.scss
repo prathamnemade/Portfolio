@@ -1,0 +1,28 @@
+@import "../../assets/fonts.scss";
+@import "../../assets/theme.scss";
+@import "../../assets/breakpoints.scss";
+
+.cross-icon {
+    animation: circleSpinner 5s ease alternate infinite;
+    transition: transform 1s;
+}
+
+@keyframes circleSpinner {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@include media(">phone", "<tablet") {
+    .menu-box-off {
+        width: 0 !important;
+        height: 100vh !important;
+    }
+    .main-menu-box {
+        width: 100vw !important;
+        height: 100vh !important;
+    }
+}
